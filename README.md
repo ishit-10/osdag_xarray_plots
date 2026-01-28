@@ -11,22 +11,22 @@ The project includes **Shear Force Diagrams (SFD)** and **Bending Moment Diagram
 
 # Project Structure
 `
-osdag_plots/
+osdag_plots/<br>
+│<br>
+├── data/ <br>
+│   ├── xarray_data.nc <br>
+│   ├── node.py <br>
+│   ├── element.py <br>
+│ <br>
+├── src/ <br>
+│   ├── task1.py <br>
+│   ├── task2.py <br>
 │
-├── data/
-│   ├── xarray_data.nc
-│   ├── node.py
-│   ├── element.py
-│
-├── src/
-│   ├── task1.py
-│   ├── task2.py
-│
-├── outputs/                  # Generated plots (PNG for 2D deigns + HTML for 3D designs) (manually added screenshots of 3D visualizations by running HTML)
-│
-├── main.py
-├── requirements.txt
-└── README.md
+├── outputs/                  # Generated plots (PNG for 2D deigns + HTML for 3D designs) (manually added screenshots of 3D visualizations by running HTML) <br>
+│ <br>
+├── main.py <br>
+├── requirements.txt <br>
+└── README.md <br>
 `
 
 # Detailed Implementation
@@ -51,7 +51,7 @@ For each girder (G1 to G5), the script:
 * Uses element connectivity from element.py
 * Retrieves 3D coordinates from node.py
 * Extracts internal forces from the Xarray dataset
-* Creates vertical extrusion of Mz or Vy:
+* Creates vertical extrusion of Mz or Vy: <br>
   `z_ex = [z1 + value_i, z2 + value_j]`
 * Plots extruded beam segments using Plotly 3D
 * Saves fully interactive diagrams:
@@ -62,16 +62,17 @@ For each girder (G1 to G5), the script:
 
 # Running the project
 
-## Install Dependencies
+### Install Dependencies
 `pip install -r requirements.txt`
 
-## Run Both Tasks
+### Run Both Tasks
 `python3 main.py`
 
-## Outputs
-Diagrams will be saved inside:
+### Outputs
+Diagrams will be saved inside: <br>
 `outputs\`
   
+
 
 
 
