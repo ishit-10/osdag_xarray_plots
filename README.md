@@ -10,7 +10,7 @@ The project includes **Shear Force Diagrams (SFD)** and **Bending Moment Diagram
 
 
 # Project Structure
-`
+
 osdag_plots/<br>
 │<br>
 ├── data/ <br>
@@ -27,7 +27,7 @@ osdag_plots/<br>
 ├── main.py <br>
 ├── requirements.txt <br>
 └── README.md <br>
-`
+
 
 # Detailed Implementation
 
@@ -72,6 +72,7 @@ For each girder (G1 to G5), the script:
 Diagrams will be saved inside: <br>
 `outputs\`
   
+
 
 
 
