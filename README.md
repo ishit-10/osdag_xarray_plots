@@ -11,22 +11,30 @@ The project includes **Shear Force Diagrams (SFD)** and **Bending Moment Diagram
 
 # Project Structure
 
-osdag_plots/<br>
-│<br>
-├── data/ <br>
-│   ├── xarray_data.nc <br>
-│   ├── node.py <br>
-│   ├── element.py <br>
-│ <br>
-├── src/ <br>
-│   ├── task1.py <br>
-│   ├── task2.py <br>
-│
-├── outputs/                  # Generated plots (PNG for 2D deigns + HTML for 3D designs) (manually added screenshots of 3D visualizations by running HTML) <br>
-│ <br>
-├── main.py <br>
-├── requirements.txt <br>
-└── README.md <br>
+└── osdag_plots/
+    ├── .DS_Store
+    ├── requirements.txt
+    ├── README.md
+    ├── main.py
+    ├── src/
+    │   ├── task2.py
+    │   ├── task1.py
+    │   └── __pycache__/
+    │       ├── task2.cpython-312.pyc
+    │       └── task1.cpython-312.pyc
+    ├── outputs/
+    │   ├── task2_sfd.html
+    │   ├── task1_sfd.png
+    │   ├── task2_bmd.html
+    │   └── task1_bmd.png
+    └── data/
+        ├── .DS_Store
+        ├── xarray_data.nc
+        ├── element.py
+        ├── node.py
+        └── __pycache__/
+            ├── element.cpython-312.pyc
+            └── node.cpython-312.pyc
 
 
 # Detailed Implementation
@@ -72,6 +80,7 @@ For each girder (G1 to G5), the script:
 Diagrams will be saved inside: <br>
 `outputs\`
   
+
 
 
 
