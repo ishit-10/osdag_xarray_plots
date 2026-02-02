@@ -11,7 +11,7 @@ The project includes **Shear Force Diagrams (SFD)** and **Bending Moment Diagram
 
 # Project Structure
 
-<img width="391" height="513" alt="Screenshot 2026-02-03 at 12 18 19 AM" src="https://github.com/user-attachments/assets/be181282-9670-417c-ae41-92aa5f6caa49" />
+<img width="401" height="506" alt="Screenshot 2026-02-03 at 12 19 08 AM 2" src="https://github.com/user-attachments/assets/61465cf2-e180-47ec-b8dd-8e5aa95e7179" />
 
 
 # Detailed Implementation
@@ -57,6 +57,7 @@ For each girder (G1 to G5), the script:
 Diagrams will be saved inside: <br>
 `outputs\`
   
+
 
 
 
